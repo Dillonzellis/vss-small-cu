@@ -1,6 +1,8 @@
+import TwoCol from "../layout/TwoCol";
+
 const Welcome = () => {
   return (
-    <div className="tw-grid tw-grid-cols-2 tw-gap-8">
+    <TwoCol>
       <div className="tw-flex tw-flex-col tw-gap-4 tw-text-center">
         <div>
           Welcome to LSCU's Virtual Learning Center for Small Credit Unions!
@@ -32,7 +34,7 @@ const Welcome = () => {
           allowfullscreen
         ></iframe>
       </div>
-    </div>
+    </TwoCol>
   );
 };
 

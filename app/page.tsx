@@ -2,6 +2,7 @@ import Container from "./components/layout/Container";
 import Assistance from "./components/sections/Assitance";
 import ExploitVid from "./components/sections/ExploitVid";
 import FreeTraining from "./components/sections/FreeTraining";
+import InfoSight from "./components/sections/InfoSight";
 import Welcome from "./components/sections/Welcome";
 import Welcome2 from "./components/sections/Welcome2";
 import MoreTraining from "./components/sections/more-training-vids/MoreTraining";
@@ -15,12 +16,13 @@ export default function Home() {
           className="tw-mx-auto"
           src="https://lscu.coop/member-engagement/imgs/header.png"
         />
-        <Welcome />
+        <Welcome />  
         <Welcome2 />
         <Assistance />
         <FreeTraining />
         <ExploitVid />
         <MoreTraining />
+        <InfoSight />
       </Container>
     </main>
   );

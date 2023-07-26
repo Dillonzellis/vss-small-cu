@@ -24,14 +24,13 @@ const Welcome = () => {
       </div>
       <div>
         <iframe
-          className="tw-rounded-xl tw-max-w-full"
+          className="tw-rounded-md tw-max-w-full"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/ScMzIvxBSi4"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </TwoCol>

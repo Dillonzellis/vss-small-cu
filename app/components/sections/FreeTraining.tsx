@@ -7,14 +7,13 @@ const FreeTraining = () => {
       <TwoCol>
         <div>
           <iframe
-            className="tw-rounded-xl tw-max-w-full"
+            className="tw-rounded-md tw-max-w-full"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/5_n1zxf3EjM"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div className="tw-flex tw-flex-col tw-gap-4">

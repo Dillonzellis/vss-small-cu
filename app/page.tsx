@@ -4,6 +4,7 @@ import ExploitVid from "./components/sections/ExploitVid";
 import FreeTraining from "./components/sections/FreeTraining";
 import Welcome from "./components/sections/Welcome";
 import Welcome2 from "./components/sections/Welcome2";
+import MoreTraining from "./components/sections/more-training-vids/MoreTraining";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Assistance />
         <FreeTraining />
         <ExploitVid />
+        <MoreTraining />
       </Container>
     </main>
   );

@@ -5,19 +5,20 @@ const Welcome = () => {
     <TwoCol>
       <div className="tw-flex tw-flex-col tw-gap-4 tw-text-center">
         <div>
-          Welcome to LSCU's Virtual Learning Center for Small Credit Unions!
+          Welcome to LSCU&apos;s Virtual Learning Center for Small Credit
+          Unions!
         </div>
         <div>
           Our team has put together a valuable on-demand resource library
-          tailored specifically to meet the needs of small credit unions. We're
-          confident that you will find the information and resources provided to
-          be informative and uplifting.
+          tailored specifically to meet the needs of small credit unions.
+          We&apos;re confident that you will find the information and resources
+          provided to be informative and uplifting.
         </div>
         <div>
           At LSCU, we are dedicated to continually enhancing our resources to
           better serve the needs of our small credit unions. Your feedback is
           incredibly valuable to us, and we welcome any suggestions or ideas you
-          may have. Please don’t hesitate to get in touch with us at
+          may have. Please don&apos;t hesitate to get in touch with us at
           MemberEngagement@LSCU.coop and share your thoughts. Together, we can
           empower and strengthen our credit union community!
         </div>

@@ -1,9 +1,13 @@
+import Section from "../layout/Section";
 import TwoCol from "../layout/TwoCol";
+import { ContentProps } from "../utils/sectionProps";
 
-const FreeTraining = () => {
+const FreeTraining = ({ bgColor }: ContentProps) => {
   return (
-    <div>
-      <div>Free Training</div>
+    <Section bgColor={bgColor}>
+      <div className="tw-font-semibold tw-text-2xl tw-pb-4 tw-text-brandingBlue-700">
+        Free Training
+      </div>
       <TwoCol>
         <div>
           <iframe
@@ -16,7 +20,7 @@ const FreeTraining = () => {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="tw-flex tw-flex-col tw-gap-4">
+        <div className="tw-flex tw-flex-col tw-gap-4 tw-justify-center tw-items-center tw-font-semibold tw-text-xl tw-text-brandingBlue-700">
           <div>
             <a href="#">FinCen.gov</a>
           </div>
@@ -28,7 +32,7 @@ const FreeTraining = () => {
           </div>
         </div>
       </TwoCol>
-    </div>
+    </Section>
   );
 };
 

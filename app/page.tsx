@@ -19,10 +19,11 @@ export default function Home() {
         />
         <Welcome bgColor="lightBlue" />
         <Welcome2 bgColor="blue" />
+        <Assistance bgColor="white" />
         {/*
 
 
-        <Assistance />
+
         <FreeTraining />
         <ExploitVid />
         <MoreTraining />

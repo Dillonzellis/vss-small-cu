@@ -22,8 +22,8 @@ export default function Home() {
         <Assistance bgColor="white" />
         <FreeTraining bgColor="lightBlue" />
         <ExploitVid bgColor="blue" />
+        <MoreTraining bgColor="white" />
         {/*
-        <MoreTraining />
         <InfoSight />
         <PolicyPro />
         <BoardFunding />

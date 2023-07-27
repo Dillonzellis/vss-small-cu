@@ -1,5 +1,6 @@
 import Container from "./components/layout/Container";
 import Assistance from "./components/sections/Assitance";
+import BoardFunding from "./components/sections/BoardFunding";
 import ExploitVid from "./components/sections/ExploitVid";
 import FreeTraining from "./components/sections/FreeTraining";
 import InfoSight from "./components/sections/InfoSight";
@@ -16,7 +17,7 @@ export default function Home() {
           className="tw-mx-auto"
           src="https://lscu.coop/member-engagement/imgs/header.png"
         />
-        <Welcome />
+        <Welcome bgColor="blue" />
         <Welcome2 />
         <Assistance />
         <FreeTraining />
@@ -24,6 +25,7 @@ export default function Home() {
         <MoreTraining />
         <InfoSight />
         <PolicyPro />
+        <BoardFunding />
       </Container>
     </main>
   );

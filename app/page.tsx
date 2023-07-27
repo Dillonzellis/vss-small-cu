@@ -11,10 +11,10 @@ import MoreTraining from "./components/sections/more-training-vids/MoreTraining"
 
 export default function Home() {
   return (
-    <main className="tw-bg-gray-950 tw-min-h-screen tw-text-white">
+    <main className="tw-min-h-screen tw-bg-[#fbfdfe]">
       <Container>
         <img
-          className="tw-mx-auto"
+          className="tw-mx-auto tw-my-4"
           src="https://lscu.coop/member-engagement/imgs/header.png"
         />
         <Welcome bgColor="blue" />

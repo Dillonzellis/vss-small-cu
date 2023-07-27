@@ -9,7 +9,9 @@ const Section = ({ children, bgColor }: SectionProps) => {
   const colorClass = bgColor ? colorClasses[bgColor] : undefined;
 
   return (
-    <section className={`tw-py-6 tw-px-8 ${colorClass || ""}`.trim()}>
+    <section
+      className={`tw-py-6 tw-px-8 tw-rounded-md ${colorClass || ""}`.trim()}
+    >
       {children}
     </section>
   );

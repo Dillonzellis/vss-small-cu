@@ -11,7 +11,7 @@ import MoreTraining from "./components/sections/more-training-vids/MoreTraining"
 
 export default function Home() {
   return (
-    <main className="tw-min-h-screen tw-bg-brandingNeutral-100 tw-text-brandingNeutral-700">
+    <main className="tw-min-h-screen tw-bg-brandingNeutral-100 tw-text-brandingNeutral-700 tw-text-base">
       <Container>
         <img
           className="tw-mx-auto tw-my-8"

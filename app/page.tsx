@@ -11,14 +11,17 @@ import MoreTraining from "./components/sections/more-training-vids/MoreTraining"
 
 export default function Home() {
   return (
-    <main className="tw-min-h-screen tw-bg-[#fbfdfe]">
+    <main className="tw-min-h-screen tw-bg-brandingNeutral-100 tw-text-brandingNeutral-700">
       <Container>
         <img
-          className="tw-mx-auto tw-my-4"
+          className="tw-mx-auto tw-my-8"
           src="https://lscu.coop/member-engagement/imgs/header.png"
         />
-        <Welcome bgColor="blue" />
-        <Welcome2 />
+        <Welcome bgColor="lightBlue" />
+        <Welcome2 bgColor="blue" />
+        {/*
+
+
         <Assistance />
         <FreeTraining />
         <ExploitVid />
@@ -26,6 +29,7 @@ export default function Home() {
         <InfoSight />
         <PolicyPro />
         <BoardFunding />
+        */}
       </Container>
     </main>
   );

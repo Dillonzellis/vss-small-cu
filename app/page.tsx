@@ -24,8 +24,8 @@ export default function Home() {
         <ExploitVid bgColor="blue" />
         <MoreTraining bgColor="white" />
         <InfoSight bgColor="lightBlue" />
+        <PolicyPro bgColor="blue" />
         {/*
-        <PolicyPro />
         <BoardFunding />
         */}
       </Container>

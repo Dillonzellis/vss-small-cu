@@ -1,13 +1,17 @@
+import Section from "../layout/Section";
 import TwoCol from "../layout/TwoCol";
+import { ContentProps } from "../utils/sectionProps";
 
-const PolicyPro = () => {
+const PolicyPro = ({ bgColor }: ContentProps) => {
   return (
-    <div>
-      <div>
-        PolicyPro provides credit unions with a comprehensive suite of more than
-        200 model policies that have been researched, developed and written
-        specifically for credit unions by regulatory experts and are reviewed
-        twice annually.
+    <Section bgColor={bgColor}>
+      <div className="tw-text-brandingNeutral-100 tw-flex tw-flex-col tw-gap-4">
+        <div className="tw-text-lg tw-font-medium">
+          PolicyPro provides credit unions with a comprehensive suite of more
+          than 200 model policies that have been researched, developed and
+          written specifically for credit unions by regulatory experts and are
+          reviewed twice annually.
+        </div>
         <div>
           <strong>
             95% of Affiliated Credit Unions have already signed up for PolicyPro
@@ -50,7 +54,7 @@ const PolicyPro = () => {
         </div>
         <div>Button</div>
       </div>
-    </div>
+    </Section>
   );
 };
 

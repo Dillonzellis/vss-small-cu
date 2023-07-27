@@ -23,8 +23,8 @@ export default function Home() {
         <FreeTraining bgColor="lightBlue" />
         <ExploitVid bgColor="blue" />
         <MoreTraining bgColor="white" />
+        <InfoSight bgColor="lightBlue" />
         {/*
-        <InfoSight />
         <PolicyPro />
         <BoardFunding />
         */}

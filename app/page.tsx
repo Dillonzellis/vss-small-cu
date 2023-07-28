@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="tw-min-h-screen tw-bg-brandingBlue-100 tw-text-brandingNeutral-700 tw-text-base">
       <Container>
-        <div className="tw-shadow-xl tw-shadow-brandingBlue-700/20">
+        <div className="tw-shadow-xl tw-shadow-brandingBlue-700/30">
           <div className="tw-bg-white">
             <img
               className="tw-mx-auto tw-py-8 tw-w-[875px]"

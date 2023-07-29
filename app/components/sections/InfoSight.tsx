@@ -1,3 +1,4 @@
+import Button from "../Button";
 import Section from "../layout/Section";
 import TwoCol from "../layout/TwoCol";
 import { ContentProps } from "../utils/sectionProps";
@@ -23,7 +24,7 @@ const InfoSight = ({ bgColor }: ContentProps) => {
               issues. Click the below button to access InfoSight. Sign in with
               the same credentials used for LSCU
             </div>
-            <div>Button</div>
+            <Button text="button" link="#" />
           </div>
           <div>
             <iframe

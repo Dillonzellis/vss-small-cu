@@ -1,3 +1,4 @@
+import Button from "../Button";
 import Section from "../layout/Section";
 import TwoCol from "../layout/TwoCol";
 import { ContentProps } from "../utils/sectionProps";
@@ -21,15 +22,9 @@ const FreeTraining = ({ bgColor }: ContentProps) => {
           ></iframe>
         </div>
         <div className="tw-flex tw-flex-col tw-gap-4 tw-justify-center tw-items-center tw-font-semibold tw-text-xl tw-text-brandingBlue-700">
-          <div>
-            <a href="#">FinCen.gov</a>
-          </div>
-          <div>
-            <a href="#">FinCen CTR FAQs</a>
-          </div>
-          <div>
-            <a href="#">FFIEC, BSA Manual</a>
-          </div>
+          <Button text="FinCen.gov" link="#" />
+          <Button text="FinCent CTR FAQS" link="#" />
+          <Button text="FFIEC, BSA Manual" link="#" />
         </div>
       </TwoCol>
     </Section>

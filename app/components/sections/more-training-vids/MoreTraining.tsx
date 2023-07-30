@@ -9,7 +9,7 @@ const MoreTraining = ({ bgColor }: ContentProps) => {
         {trainingVids.map((vid, idx) => (
           <div key={idx} className="lg:tw-w-1/4 tw-p-2">
             <iframe
-              className="tw-rounded-md"
+              className="tw-rounded-md tw-shadow-lg tw-shadow-brandingBlue-700/40"
               width="100%"
               height="auto"
               src={vid.src}

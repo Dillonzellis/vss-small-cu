@@ -1,3 +1,4 @@
+import Button from "../Button";
 import VideoContainer from "../VideoContainer";
 import Section from "../layout/Section";
 import TwoCol from "../layout/TwoCol";
@@ -51,7 +52,7 @@ const PolicyPro = ({ bgColor }: ContentProps) => {
           If you are an affiliated credit union in Alabama, Florida, or Georgia,
           click on Register Now to get started.
         </div>
-        <div>Button</div>
+        <Button text="Button" link="#" />
       </div>
     </Section>
   );

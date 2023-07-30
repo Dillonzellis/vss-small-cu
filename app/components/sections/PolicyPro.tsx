@@ -1,3 +1,4 @@
+import VideoContainer from "../VideoContainer";
 import Section from "../layout/Section";
 import TwoCol from "../layout/TwoCol";
 import { ContentProps } from "../utils/sectionProps";
@@ -44,17 +45,7 @@ const PolicyPro = ({ bgColor }: ContentProps) => {
               <li>And Much More!</li>
             </ul>
           </div>
-          <div>
-            <iframe
-              className="tw-rounded-md tw-max-w-full"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/ScMzIvxBSi4"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </div>
+          <VideoContainer src="https://www.youtube.com/embed/ScMzIvxBSi4" />
         </TwoCol>
         <div>
           If you are an affiliated credit union in Alabama, Florida, or Georgia,

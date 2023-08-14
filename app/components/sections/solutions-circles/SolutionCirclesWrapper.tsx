@@ -1,21 +1,15 @@
-import Section from "../../layout/Section";
-import Container from "../../layout/Container";
-import SolutionCircle from "./SolutionCircle";
+import Circle from "../../circles/Circle";
+import CirclesWrapper from "../../circles/CircleWrapper"
+import { solutionsData } from "./solutions-data";
 
-const SolutionCirclessWrapper = () => {
+const SolutionsCircles = () => {
   return (
-    <Section bgColor="lightBlue">
-      <Container>
-        <div className="tw-flex tw-flex-col tw-items-center tw-gap-2 lg:tw-grid lg:tw-grid-cols-5">
-          <SolutionCircle title="Small CU Talent Strategy Guide" link="#" />
-          <SolutionCircle title="Financial Wellness" link="#" />
-          <SolutionCircle title="Budget Analysis" link="#" />
-          <SolutionCircle title="Model CU Budget Projection Template" link="#" />
-          <SolutionCircle title="Branch Setup Checklist " link="#" />
-        </div>
-      </Container>
-    </Section>
+    <CirclesWrapper bgColor="lightBlue">
+      {solutionsData.map((solution) => (
+        <Circle title={solution.title} link={solution.link} imgSrc={solution.imgSrc} />
+      ))}
+    </CirclesWrapper>
   )
 }
 
-export default SolutionCirclessWrapper;
+export default SolutionsCircles;

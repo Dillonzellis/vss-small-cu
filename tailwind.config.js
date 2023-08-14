@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   prefix: "tw-",
+  tailwindFunctions: ['tw'],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -22,8 +23,10 @@ module.exports = {
           700: "#040f15",
           100: "#fbfdfe",
         },
+        "light-circle-gradient": "var(--light-circle-gradient)",
+        "light-circle-gradient-hover": "var(--light-circle-gradient-hover)"
       },
     },
   },
-  plugins: [],
+  plugins: ['prettier-plugin-tailwindcss'],
 };

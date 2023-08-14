@@ -12,7 +12,7 @@ const CirclesWrapper = ({ children, cols = "5", bgColor }: CirclesWrapperProps) 
   return (
     <Section bgColor={bgColor}>
       <Container>
-        <div className={`tw-flex tw-flex-col tw-items-center tw-gap-2 lg:tw-grid lg:tw-grid-cols-${cols}`}>
+        <div className={`tw-flex tw-flex-col tw-items-center tw-gap-2 lg:tw-grid lg:tw-grid-cols-5`}>
           {children}
         </div>
       </Container>

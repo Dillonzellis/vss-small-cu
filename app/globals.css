@@ -22,3 +22,8 @@
 .light-circle::before{
   background: linear-gradient(20deg, #0078C2 20%, #3CC3BA 80%, #D5E9F6 100%);
 }
+
+
+.dark-circle {
+  background: linear-gradient(30deg, white 5%, #D5E9F6 25%, #3CC3BA 65%, #0078C2 100%);
+}

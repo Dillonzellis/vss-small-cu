@@ -7,6 +7,7 @@ import InfoSight from "./components/sections/InfoSight";
 import PolicyPro from "./components/sections/PolicyPro";
 import Welcome from "./components/sections/Welcome";
 import Welcome2 from "./components/sections/Welcome2";
+import CunaCircles from "./components/sections/cuna/Cuna";
 import MoreTraining from "./components/sections/more-training-vids/MoreTraining";
 import SolutionCirclessWrapper from "./components/sections/solutions-circles/SolutionCirclesWrapper";
 
@@ -30,7 +31,8 @@ export default function Home() {
           <InfoSight bgColor="lightBlue" />
           <PolicyPro bgColor="blue" />
           <BoardFunding bgColor="white" />
-          <SolutionCirclessWrapper />
+          <SolutionCirclessWrapper bgColor="lightBlue" />
+          <CunaCircles bgColor="blue" />
         </div>
       </Container>
     </main>

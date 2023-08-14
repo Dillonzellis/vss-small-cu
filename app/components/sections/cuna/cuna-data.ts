@@ -21,7 +21,7 @@ export const cunaData = [
     link: ""
   },
   {
-    title: "The state of small credit unions today",
+    title: "The State of Small Credit Unions Today",
     link: ""
   },
 ]

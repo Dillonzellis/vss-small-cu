@@ -16,7 +16,7 @@ const CunaCircles = ({ bgColor }: CunaCirclesProps) => {
       <Container>
         <div className="tw-flex tw-flex-wrap tw-justify-evenly">
           {cunaData.map((data, idx) => (
-            <Circle key={idx} title={data.title} link={data.link} bgColor={bgColor} />
+            <Circle key={idx} title={data.title} link={data.link} variant="dark" />
           ))}
         </div>
       </Container>

@@ -9,6 +9,7 @@ import Welcome from "./components/sections/Welcome";
 import Welcome2 from "./components/sections/Welcome2";
 import CunaCircles from "./components/sections/cuna/Cuna";
 import MoreTraining from "./components/sections/more-training-vids/MoreTraining";
+import NcuaCircles from "./components/sections/ncua/NcuaCircles";
 import SolutionCirclessWrapper from "./components/sections/solutions-circles/SolutionCirclesWrapper";
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
           <BoardFunding bgColor="white" />
           <SolutionCirclessWrapper bgColor="lightBlue" />
           <CunaCircles bgColor="blue" />
+          <NcuaCircles bgColor="white" />
         </div>
       </Container>
     </main>

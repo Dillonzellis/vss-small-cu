@@ -7,6 +7,7 @@ import InfoSight from "./components/sections/InfoSight";
 import PolicyPro from "./components/sections/PolicyPro";
 import Welcome from "./components/sections/Welcome";
 import Welcome2 from "./components/sections/Welcome2";
+import CirclesWrapper from "./components/sections/circles/CirclesWrapper";
 import MoreTraining from "./components/sections/more-training-vids/MoreTraining";
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
           <InfoSight bgColor="lightBlue" />
           <PolicyPro bgColor="blue" />
           <BoardFunding bgColor="white" />
+          <CirclesWrapper />
         </div>
       </Container>
     </main>

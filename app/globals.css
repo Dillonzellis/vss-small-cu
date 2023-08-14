@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .magic-circles{ */
+/*  background: linear-gradient(45deg, #0078C2 0%, #3CC3BA 40%, #D5E9F6 75%, white 95%); */
+/*   transition: all 1s ease-in-out; */
+/*   transform: translateY(0); */
+/* } */
+
+/* .magic-circles:hover{ */
+/*   background: linear-gradient(55deg, #0078C2 0%, #3CC3BA 40%, #D5E9F6 75%, white 95%); */
+/*   transform: translateY(-10px); */
+/* } */
+
+
+.magic-circles {
+  position: relative;
+  background: linear-gradient(45deg, #0078C2 0%, #3CC3BA 40%, #D5E9F6 75%, white 95%);
+  transition: transform 0.45s ease-in-out, box-shadow 1s ease-in-out;
+  transform: translateY(0);
+}
+
+.magic-circles::before {
+  content: "";
+  position: absolute;
+  border-radius: 9999px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: linear-gradient(55deg, #0078C2 0%, #3CC3BA 40%, #D5E9F6 75%, white 95%); */
+  background: linear-gradient(65deg, #0078C2 10%, #3CC3BA 50%, #D5E9F6 85%, white 90%); /* Adjusted gradient */
+  /* background: red; */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1; /* Ensure it stays behind the content */
+}
+
+.magic-circles:hover {
+  transform: translateY(-10px);
+}
+
+.magic-circles:hover::before {
+  opacity: 1;
+}

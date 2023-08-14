@@ -1,4 +1,5 @@
 import Container from "./components/layout/Container";
+import AdditionalResources from "./components/sections/AdditionalResouces";
 import Assistance from "./components/sections/Assitance";
 import BoardFunding from "./components/sections/BoardFunding";
 import ExploitVid from "./components/sections/ExploitVid";
@@ -35,6 +36,7 @@ export default function Home() {
           <SolutionCirclessWrapper bgColor="lightBlue" />
           <CunaCircles bgColor="blue" />
           <NcuaCircles bgColor="white" />
+          <AdditionalResources bgColor="lightBlue" />
         </div>
       </Container>
     </main>

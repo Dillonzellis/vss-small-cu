@@ -5,10 +5,10 @@ const Assistance = ({ bgColor }: ContentProps) => {
   return (
     <Section bgColor={bgColor}>
       <div className="tw-text-brandingBlue-100">
-        <div className="tw-pb-2 tw-text-2xl tw-font-semibold">
+        <div className="tw-pb-2 tw-text-lg lg:tw-text-2xl tw-font-semibold">
           Available assistance includes:
         </div>
-        <ul className="tw-list-disc tw-list-inside tw-text-lg">
+        <ul className="tw-list-disc tw-list-inside lg:tw-text-lg">
           <li>Small Credit Union Initiatives Account</li>
           <li>
             Guidance in resolving document of resolution items and/or other

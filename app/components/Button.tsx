@@ -10,11 +10,11 @@ const Button = ({ text, link, variant }: ButtonProps) => {
   let variantClass = ""
 
   if (variant === "dark") {
-    variantClass = "tw-bg-brandingBlue-400 tw-text-white"
+    variantClass = "tw-bg-brandingBlue-400 tw-text-white hover:tw-text-white"
   }
 
   if (variant === "light") {
-    variantClass = "tw-bg-brandingBlue-100 tw-text-brandingBlue-400"
+    variantClass = "tw-bg-brandingBlue-100 tw-text-brandingBlue-400 hover:tw-text-brandingBlue-400"
   }
 
   return (

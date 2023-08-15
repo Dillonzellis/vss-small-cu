@@ -11,8 +11,8 @@ const AdditionalResources = ({ bgColor }: AdditionalResourcesProps) => {
     <Section bgColor={bgColor}>
       <Container>
         <div className="tw-text-brandingBlue-100">
-          <div className="tw-mx-auto md:tw-text-center tw-text-4xl tw-pb-4 tw-font-medium">Additional Resources</div>
-          <ul className="tw-list-disc tw-list-inside tw-text-lg">
+          <div className="tw-mx-auto md:tw-text-center tw-text-2xl md:tw-text-3xl lg:tw-text-4xl tw-pb-4 tw-font-medium">Additional Resources</div>
+          <ul className="tw-list-disc tw-list-inside lg:tw-text-lg">
             <li><a href="">Charter Considerations</a></li>
             <li><a href="">CDFI Certification</a></li>
             <li><a href="">Conflict of Interest Resolution</a></li>

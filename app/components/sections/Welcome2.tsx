@@ -9,7 +9,7 @@ const Welcome2 = ({ bgColor }: ContentProps) => {
           <img src="https://lscu.coop/member-engagement/imgs/vss-logo-vert.png" />
         </div>
 
-        <div className="md:tw-col-span-3 tw-text-slate-900 tw-text-lg tw-space-y-2">
+        <div className="md:tw-col-span-3 tw-text-slate-900 lg:tw-text-lg tw-space-y-2">
           <div>
             Small credit unions are faced with a variety of challenges in
             today&apos;s competitive marketplace. LSCU emphasizes the importance

@@ -10,11 +10,11 @@ const InfoSight = ({ bgColor }: ContentProps) => {
       <div>
         <TwoCol>
           <div className="tw-flex tw-flex-col tw-gap-4 tw-text-brandingBlue-100">
-            <div className="tw-font-semibold tw-text-4xl">
+            <div className="tw-font-semibold tw-text-2xl md:tw-text-3xl lg:tw-text-4xl">
               InfoSight is your first stop when searching for compliance
               answers.
             </div>
-            <div className="tw-text-lg tw-space-y-2">
+            <div className="lg:tw-text-lg tw-space-y-2">
               <div>
                 Think of it as a <em>free</em>, online compliance resource at your
                 fingertips, containing federal and state-specific content that is

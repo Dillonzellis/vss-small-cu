@@ -8,7 +8,7 @@ const PolicyPro = ({ bgColor }: ContentProps) => {
   return (
     <Section bgColor={bgColor}>
       <div className="tw-text-slate-900 tw-flex tw-flex-col tw-gap-4">
-        <div className="tw-text-2xl tw-font-medium">
+        <div className="tw-text-xl lg:tw-text-2xl tw-font-medium">
           PolicyPro provides credit unions with a comprehensive suite of more
           than 200 model policies that have been researched, developed and
           written specifically for credit unions by regulatory experts and are
@@ -37,8 +37,8 @@ const PolicyPro = ({ bgColor }: ContentProps) => {
         </div>
         <TwoCol>
           <div>
-            <div className="tw-text-xl tw-pb-2 tw-font-semibold">Within this manual you can:</div>
-            <ul className="tw-list-disc tw-list-inside tw-text-lg">
+            <div className="tw-text-lg lg:tw-text-xl tw-pb-2 tw-font-semibold">Within this manual you can:</div>
+            <ul className="tw-list-disc tw-list-inside lg:tw-text-lg">
               <li>Customize Model Policies</li>
               <li>Upload Existing Policies</li>
               <li>Edit Your Policies</li>

@@ -52,7 +52,7 @@ const PolicyPro = ({ bgColor }: ContentProps) => {
           If you are an affiliated credit union in Alabama, Florida, or Georgia,
           click on Register Now to get started.
         </div>
-        <Button text="Button" link="#" />
+        <Button variant="dark" text="Button" link="#" />
       </div>
     </Section>
   );

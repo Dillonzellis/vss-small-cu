@@ -25,7 +25,7 @@ const InfoSight = ({ bgColor }: ContentProps) => {
                 the same credentials used for LSCU
               </div>
             </div>
-            <Button text="button" link="#" />
+            <Button text="button" link="#" variant="light" />
           </div>
           <div>
             <img

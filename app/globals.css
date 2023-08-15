@@ -22,6 +22,10 @@
   background: linear-gradient(122deg, #5086AA 0%, #FFF 100%);
 }
 
+.btn-gradient{
+background: linear-gradient(90deg, #0078C2 59.07%, #87DAD5 100%);
+}
+
 .magic-circles {
   transition: transform 0.45s ease-in-out, box-shadow 1s ease-in-out;
 }

@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+.dark-gradient{
+  border-radius: 7px;
+  background: linear-gradient(130deg, #0078C2 0.28%, #87DAD5 100%);
+}
+
+.light-blue-gradient{
+  border-radius: 7px;
+  background: linear-gradient(77deg, #87DAD5 0%, #0078C2 100%);
+}
+
+.green-gradient{
+  border-radius: 7px;
+  background: linear-gradient(130deg, #91E01A 0%, #87DAD5 100%);
+}
+
+.light-gradient-1{
+border-radius: 7px;
+background: linear-gradient(53deg, #ACD0E8 0%, #FFF 100%);
+}
+
+.light-gradient-2{
+  border-radius: 7px;
+  background: linear-gradient(122deg, #5086AA 0%, #FFF 100%);
+}
+
 .magic-circles {
   transition: transform 0.45s ease-in-out, box-shadow 1s ease-in-out;
 }

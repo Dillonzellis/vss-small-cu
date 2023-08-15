@@ -4,9 +4,9 @@ import { ContentProps } from "../utils/sectionProps";
 const BoardFunding = ({ bgColor }: ContentProps) => {
   return (
     <Section bgColor={bgColor}>
-      <div className="tw-flex tw-flex-col tw-gap-4">
+      <div className="tw-text-slate-900 tw-flex tw-flex-col tw-gap-4">
         <img src="https://lscu.coop/member-engagement/imgs/header.png" />
-        <div>
+        <div className="tw-text-lg">
           The LSCU board of directors has approved funding for the Small Credit
           Union Initiatives Account Program, available to all affiliated credit
           unions $100 million in assets or less. The LSCU has created an account
@@ -22,14 +22,14 @@ const BoardFunding = ({ bgColor }: ContentProps) => {
         </div>
         <div>LEVERAGE Products (LSCU Service Corp.)</div>
         <div>FiCEP</div>
-        <div>
+        <div className="tw-text-lg">
           To utilize Small CU Initiatives Account funds, simply notify your
           Member Engagement Consultant. You may also note that the invoice is to
           be paid from the Small CU Initiatives Account upon receipt for
           events/services used. LSCU accounting staff will keep track of
           expenditures from your account.
         </div>
-        <div>
+        <div className="tw-text-lg">
           The Small CU Initiatives Fund was approved based on the LSCU’s 2023
           budget and will be re-evaluated each year as part of our budget
           process. Unused funds in your account cannot be rolled over or

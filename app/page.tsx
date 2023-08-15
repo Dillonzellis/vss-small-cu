@@ -15,28 +15,28 @@ import SolutionCirclessWrapper from "./components/sections/solutions-circles/Sol
 
 export default function Home() {
   return (
-    <main className="tw-min-h-screen tw-bg-brandingBlue-100 tw-text-brandingNeutral-700 tw-text-base">
+    <main className="tw-min-h-screen tw-bg-white tw-text-brandingNeutral-700 tw-text-base">
       <Container>
-        <div className="tw-shadow-xl tw-shadow-brandingBlue-700/30">
-          <div className="tw-bg-white">
+        <div className="">
+          <div className="tw-rounded-md tw-shadow-lg tw-bg-white tw-flex tw-justify-center tw-items-center">
             <img
-              className="tw-mx-auto tw-py-8 tw-w-[875px]"
+              className="tw-py-8 tw-w-[875px]"
               src="https://lscu.coop/member-engagement/imgs/header.png"
             />
           </div>
-          <Welcome bgColor="lightBlue" />
-          <Welcome2 bgColor="blue" />
-          <Assistance bgColor="white" />
-          <FreeTraining bgColor="lightBlue" />
-          <ExploitVid bgColor="blue" />
-          <MoreTraining bgColor="white" />
+          <Welcome bgColor="blue" />
+          <Welcome2 bgColor="lightOne" />
+          <Assistance bgColor="lightBlue" />
+          <FreeTraining bgColor="green" />
+          <ExploitVid bgColor="lightBlue" />
+          <MoreTraining bgColor="blue" />
           <InfoSight bgColor="lightBlue" />
-          <PolicyPro bgColor="blue" />
+          <PolicyPro bgColor="lightOne" />
           <BoardFunding bgColor="white" />
           <SolutionCirclessWrapper bgColor="lightBlue" />
           <CunaCircles bgColor="blue" />
           <NcuaCircles bgColor="white" />
-          <AdditionalResources bgColor="lightBlue" />
+          <AdditionalResources bgColor="dark" />
         </div>
       </Container>
     </main>

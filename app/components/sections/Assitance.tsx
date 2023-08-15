@@ -4,11 +4,11 @@ import { ContentProps } from "../utils/sectionProps";
 const Assistance = ({ bgColor }: ContentProps) => {
   return (
     <Section bgColor={bgColor}>
-      <div>
-        <div className="tw-pb-2 tw-text-xl tw-font-semibold">
+      <div className="tw-text-brandingBlue-100">
+        <div className="tw-pb-2 tw-text-2xl tw-font-semibold">
           Available assistance includes:
         </div>
-        <ul className="tw-list-disc tw-list-inside">
+        <ul className="tw-list-disc tw-list-inside tw-text-lg">
           <li>Small Credit Union Initiatives Account</li>
           <li>
             Guidance in resolving document of resolution items and/or other

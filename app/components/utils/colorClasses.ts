@@ -1,8 +1,11 @@
-export type Color = "blue" | "lightBlue" | "accentBlue" | "white";
+export type Color = "blue" | "lightBlue" | "lightOne" | "lightTwo" | 'green' | "white" | "dark";
 
 export const colorClasses: Record<Color, string> = {
-  blue: "tw-bg-brandingBlue-400",
-  lightBlue: "tw-bg-brandingBlue-300",
-  accentBlue: "tw-bg-accentBlue-400",
-  white: "tw-bg-white",
+  blue: "dark-gradient",
+  lightBlue: "light-blue-gradient",
+  lightOne: "light-gradient-1",
+  lightTwo: "light-gradient-2",
+  green: "green-gradient",
+  white: "tw-bg-brandingBlue-100",
+  dark: "tw-bg-slate-700"
 };

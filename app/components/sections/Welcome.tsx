@@ -8,17 +8,17 @@ const Welcome = ({ bgColor }: ContentProps) => {
     <Section bgColor={bgColor}>
       <TwoCol>
         <div className="tw-flex tw-flex-col tw-gap-4 tw-text-center tw-text-white">
-          <div className="tw-font-bold tw-text-4xl tw-italic">
+          <div className="tw-font-bold tw-text-2xl md:tw-text-3xl lg:tw-text-4xl tw-italic">
             Welcome to LSCU&apos;s Virtual Learning Center for Small Credit
             Unions!
           </div>
-          <div className="tw-text-lg">
+          <div className="tw-text-base lg:tw-text-lg">
             Our team has put together a valuable on-demand resource library
             tailored specifically to meet the needs of small credit unions.
             We&apos;re confident that you will find the information and
             resources provided to be informative and uplifting.
           </div>
-          <div className="tw-text-lg">
+          <div className="tw-text-base lg:tw-text-lg">
             At LSCU, we are dedicated to continually enhancing our resources to
             better serve the needs of our small credit unions. Your feedback is
             incredibly valuable to us, and we welcome any suggestions or ideas

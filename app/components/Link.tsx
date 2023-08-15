@@ -5,7 +5,7 @@ type LinkProps = {
 
 const Link = ({ children, href }: LinkProps) => {
   return (
-    <a className="tw-text-brandingBlue-100 tw-text-xl hover:tw-underline tw-font-semibold" href={href}>{children}</a>
+    <a className="tw-text-brandingBlue-100  tw-text-xl hover:tw-underline tw-font-semibold" href={href}>{children}</a>
   )
 }
 

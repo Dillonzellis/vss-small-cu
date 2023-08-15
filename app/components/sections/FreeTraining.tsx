@@ -8,7 +8,7 @@ import Link from "../Link"
 const FreeTraining = ({ bgColor }: ContentProps) => {
   return (
     <Section bgColor={bgColor}>
-      <div className="tw-font-bold tw-italic tw-text-center tw-text-5xl tw-pb-10 tw-text-brandingBlue-100">
+      <div className="tw-font-bold tw-italic tw-text-center tw-text-2xl md:tw-text-3xl lg:tw-text-5xl tw-pb-10 tw-text-brandingBlue-100">
         Free Training
       </div>
       <TwoCol>

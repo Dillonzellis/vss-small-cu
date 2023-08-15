@@ -25,7 +25,7 @@ const InfoSight = ({ bgColor }: ContentProps) => {
                 the same credentials used for LSCU
               </div>
             </div>
-            <Button text="button" link="#" variant="light" />
+            <Button text="button" link="https://lscu.leagueinfosight.com/" variant="light" />
           </div>
           <div>
             <img

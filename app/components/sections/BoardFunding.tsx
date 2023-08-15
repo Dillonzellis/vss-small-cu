@@ -15,14 +15,14 @@ const BoardFunding = ({ bgColor }: ContentProps) => {
           purchase of any LSCU, LEVERAGE, or a CUNA product and/or service
           including:
         </div>
-        <Link dark href="">LSCU Education and Training Events</Link>
-        <Link dark href="">CUNA Education and Training Events</Link>
+        <Link dark href="https://lscu.coop/member-engagement/chapters/calendar.php">LSCU Education and Training Events</Link>
+        <Link dark href="https://www.cuna.org/content/cuna/cuna-org/events.html?r=1&sortBy=date">CUNA Education and Training Events</Link>
         <Link dark href="">
           LSCU Strategic Planning Sessions (contact your Member Engagement
           Consultant for details)
         </Link>
-        <Link dark href="">LEVERAGE Products (LSCU Service Corp.)</Link>
-        <Link dark href="">FiCEP</Link>
+        <Link dark href="https://myleverage.com/">LEVERAGE Products (LSCU Service Corp.)</Link>
+        <Link dark href="https://lscu.coop/foundation/ficep.php">FiCEP</Link>
         <div className="lg:tw-text-lg">
           To utilize Small CU Initiatives Account funds, simply notify your
           Member Engagement Consultant. You may also note that the invoice is to

@@ -15,13 +15,13 @@ const FreeTraining = ({ bgColor }: ContentProps) => {
         <VideoContainer src="https://www.youtube.com/embed/5_n1zxf3EjM" />
         <div className="tw-space-y-4 tw-mx-auto">
           <div>
-            <Link href="">FinCen.gov</Link>
+            <Link href="https://www.fincen.gov/">FinCen.gov</Link>
           </div>
           <div>
-            <Link href="">FinCen.gov</Link>
+            <Link href="https://www.fincen.gov/frequently-asked-questions-regarding-fincen-currency-transaction-report-ctr">FinCen CTR FAQs</Link>
           </div>
           <div>
-            <Link href="">FFIEC, BSA Manual</Link>
+            <Link href="https://bsaaml.ffiec.gov/manual">FFIEC, BSA Manual</Link>
           </div>
         </div>
       </TwoCol >

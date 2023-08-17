@@ -6,7 +6,7 @@ import { trainingVids } from "./data";
 const MoreTraining = ({ bgColor }: ContentProps) => {
   return (
     <Section bgColor={bgColor}>
-      <div className="md:tw-grid md:tw-grid-cols-2 tw-justify-center tw-gap-8 tw-items-center">
+      <div className="md:tw-grid md:tw-grid-cols-2 tw-justify-center tw-gap-8 tw-items-end">
         {trainingVids.map((vid, idx) => (
           <div key={idx} className="tw-pb-8 md:tw-pb-4">
             <VideoTitle>{vid.title}</VideoTitle>

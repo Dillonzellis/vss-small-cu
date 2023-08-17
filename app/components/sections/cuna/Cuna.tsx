@@ -13,7 +13,7 @@ const CunaCircles = ({ bgColor }: CunaCirclesProps) => {
   return (
     <Section bgColor={bgColor}>
       <div className="tw-mx-auto tw-flex tw-justify-center tw-pb-8">
-        <img className="tw-bg-brandingBlue-100 tw-p-4 tw-rounded-md tw-shadow-lg" src="http://dev2.growthbydesign.org/wp-content/uploads/CUNA-Logo.png" />
+        <img className="tw-p-4 tw-rounded-md " src="http://dev2.growthbydesign.org/wp-content/uploads/CUNA-Logo.png" />
       </div>
       <Container>
         <div className="tw-gap-2 tw-flex tw-flex-wrap tw-justify-evenly">

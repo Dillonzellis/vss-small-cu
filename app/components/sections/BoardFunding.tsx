@@ -1,12 +1,12 @@
 import Section from "../layout/Section";
-import Link from "../Link"
+import Link from "../Link";
 import { ContentProps } from "../utils/sectionProps";
 
 const BoardFunding = ({ bgColor }: ContentProps) => {
   return (
     <Section bgColor={bgColor}>
       <div className="tw-text-slate-900 tw-flex tw-flex-col tw-gap-4">
-        <img src="https://lscu.coop/member-engagement/imgs/header.png" />
+        <img src="https://lscu.coop/member-engagement/imgs/header-edit.png" />
         <div className="tw-text-lg lg:tw-text-xl">
           The LSCU board of directors has approved funding for the Small Credit
           Union Initiatives Account Program, available to all affiliated credit
@@ -15,14 +15,28 @@ const BoardFunding = ({ bgColor }: ContentProps) => {
           purchase of any LSCU, LEVERAGE, or a CUNA product and/or service
           including:
         </div>
-        <Link dark href="https://lscu.coop/member-engagement/chapters/calendar.php">LSCU Education and Training Events</Link>
-        <Link dark href="https://www.cuna.org/content/cuna/cuna-org/events.html?r=1&sortBy=date">CUNA Education and Training Events</Link>
+        <Link
+          dark
+          href="https://lscu.coop/member-engagement/chapters/calendar.php"
+        >
+          LSCU Education and Training Events
+        </Link>
+        <Link
+          dark
+          href="https://www.cuna.org/content/cuna/cuna-org/events.html?r=1&sortBy=date"
+        >
+          CUNA Education and Training Events
+        </Link>
         <Link dark href="">
           LSCU Strategic Planning Sessions (contact your Member Engagement
           Consultant for details)
         </Link>
-        <Link dark href="https://myleverage.com/">LEVERAGE Products (LSCU Service Corp.)</Link>
-        <Link dark href="https://lscu.coop/foundation/ficep.php">FiCEP</Link>
+        <Link dark href="https://myleverage.com/">
+          LEVERAGE Products (LSCU Service Corp.)
+        </Link>
+        <Link dark href="https://lscu.coop/foundation/ficep.php">
+          FiCEP
+        </Link>
         <div className="lg:tw-text-lg">
           To utilize Small CU Initiatives Account funds, simply notify your
           Member Engagement Consultant. You may also note that the invoice is to

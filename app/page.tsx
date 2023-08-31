@@ -28,7 +28,6 @@ export default function Home() {
           <Welcome2 bgColor="lightOne" />
           <Assistance bgColor="lightBlue" />
           <FreeTraining bgColor="green" />
-          <ExploitVid bgColor="lightBlue" />
           <MoreTraining bgColor="blue" />
           <InfoSight bgColor="lightBlue" />
           <PolicyPro bgColor="lightOne" />

@@ -1,34 +1,47 @@
 export const trainingVids = [
   {
-    title: "Board Responsibilities ",
-    src: "https://lscu.coop/member-engagement/docs/vids_0820/bd_resp_0820.mp4",
-  },
-  {
-    title: "Fair Lending ",
-    src: "https://lscu.coop/member-engagement/docs/vids_0820/fair_lnd_0820.mp4",
-  },
-  {
-    title: "Member Service ",
-    src: "https://lscu.coop/member-engagement/docs/zoom_9.mp4",
-  },
-  {
+    key: 1,
     title: "Cybersecurity Training",
     src: "https://www.youtube.com/embed/gg5gPN1aTP0",
   },
   {
+    key: 2,
+    title: "Fair Lending ",
+    src: "https://lscu.coop/member-engagement/docs/vids_0820/fair_lnd_0820.mp4",
+  },
+  {
+    key: 3,
+    title: "Robbery Training",
+    src: "https://lscu.coop/member-engagement/docs/RobberyAwarenessTraining2021.mp4",
+  },
+  {
+    key: 4,
+    title: "Elder Financial Exploitation",
+    src: "https://lscu.coop/member-engagement/docs/vids_0820/elder_fin_expl_0820.mp4",
+  },
+  {
+    key: 5,
+    title: "Board Responsibilities ",
+    src: "https://lscu.coop/member-engagement/docs/vids_0820/bd_resp_0820.mp4",
+  },
+  {
+    key: 6,
     title: "Supervisory Committee ",
     src: "https://lscu.coop/member-engagement/docs/vids_0820/supv_comm_0820.mp4",
   },
   {
-    title: "Interest Rate Risk ",
-    src: "https://lscu.coop/member-engagement/docs/interest-rate-risk.mp4",
-  },
-  {
+    key: 7,
     title: "Understanding CU Financials ",
     src: "https://lscu.coop/member-engagement/docs/vids_0820/cu_financials_0820.mp4",
   },
   {
-    title: "Space for Video",
-    src: "https://www.youtube.com/embed/ScMzIvxBSi4",
+    key: 8,
+    title: "Member Service",
+    src: "https://lscu.coop/member-engagement/docs/zoom_9.mp4",
+  },
+  {
+    key: 9,
+    title: "Interest Rate Risk ",
+    src: "https://lscu.coop/member-engagement/docs/interest-rate-risk.mp4",
   },
 ];

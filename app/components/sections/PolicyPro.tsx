@@ -28,7 +28,7 @@ const PolicyPro = ({ bgColor }: ContentProps) => {
         </div>
         <div>
           <strong>
-            IF Your Credit Union Has Never Been Registered For PolicyPro
+            If Your Credit Union Has Never Been Registered For PolicyPro
           </strong>{" "}
           - CU PolicyPro is a benefit of affiliation with the LSCU & Affiliates.
           Once registration is approved, a unique manual will be created for
@@ -37,22 +37,28 @@ const PolicyPro = ({ bgColor }: ContentProps) => {
         </div>
         <TwoCol>
           <div>
-            <div className="tw-text-lg lg:tw-text-xl tw-pb-2 tw-font-semibold">Within this manual you can:</div>
-            <ul className="tw-list-disc tw-list-inside lg:tw-text-lg">
+            <div className="tw-text-lg lg:tw-text-xl tw-pb-2 tw-font-semibold">
+              Within this manual you can:
+            </div>
+            <ul className="tw-list-disc tw-list-inside">
               <li>Customize Model Policies</li>
               <li>Upload Existing Policies</li>
               <li>Edit Your Policies</li>
-              <li>Publish Policies For Your Staff. Board, And Examiners</li>
+              <li>Publish Policies For Your Staff, Board, And Examiners</li>
               <li>And Much More!</li>
             </ul>
+            <div className="tw-pt-8">
+              If you are an affiliated credit union in Alabama, Florida, or
+              Georgia, click on Register Now to get started.
+            </div>
           </div>
           <VideoContainer src="https://www.youtube.com/embed/ScMzIvxBSi4" />
         </TwoCol>
-        <div className="tw-pt-8">
-          If you are an affiliated credit union in Alabama, Florida, or Georgia,
-          click on Register Now to get started.
-        </div>
-        <Button variant="dark" text="Button" link="https://lscu.leagueinfosight.com/cu-policypro" />
+        <Button
+          variant="dark"
+          text="Register Now"
+          link="https://lscu.leagueinfosight.com/cu-policypro"
+        />
       </div>
     </Section>
   );

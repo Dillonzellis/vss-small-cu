@@ -2,32 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-.dark-gradient{
-  background: linear-gradient(130deg, #0078C2 0.28%, #87DAD5 100%);
+.green-text-gradient {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to right, #91e01a, #87dad5 50%, white 50%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+
+  transition: background-position 275ms ease;
 }
 
-.light-blue-gradient{
-  background: linear-gradient(77deg, #87DAD5 0%, #0078C2 100%);
+.green-text-gradient:hover {
+  background-position: 0 100%;
 }
 
-.green-gradient{
-  background: linear-gradient(130deg, #91E01A 0%, #87DAD5 100%);
+.dark-gradient {
+  background: linear-gradient(130deg, #0078c2 0.28%, #87dad5 100%);
 }
 
-.light-gradient-1{
-  background: linear-gradient(53deg, #ACD0E8 0%, #FFF 100%);
+.light-blue-gradient {
+  background: linear-gradient(77deg, #87dad5 0%, #0078c2 100%);
 }
 
-.light-gradient-2{
-  background: linear-gradient(122deg, #5086AA 0%, #FFF 100%);
+.green-gradient {
+  background: linear-gradient(130deg, #91e01a 0%, #87dad5 100%);
 }
 
-.btn-gradient{
-background: linear-gradient(90deg, #0078C2 59.07%, #87DAD5 100%);
+.light-gradient-1 {
+  background: linear-gradient(53deg, #acd0e8 0%, #fff 100%);
+}
+
+.light-gradient-2 {
+  background: linear-gradient(122deg, #5086aa 0%, #fff 100%);
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #0078c2 59.07%, #87dad5 100%);
 }
 
 .magic-circles {
-  transition: transform 0.45s ease-in-out, box-shadow 1s ease-in-out;
+  transition:
+    transform 0.45s ease-in-out,
+    box-shadow 1s ease-in-out;
 }
 
 .magic-circles::before {
@@ -39,19 +59,36 @@ background: linear-gradient(90deg, #0078C2 59.07%, #87DAD5 100%);
   z-index: -1;
 }
 
-.light-circle{
-  background: linear-gradient(40deg, #0078C2 10%, #3CC3BA 60%, #D5E9F6 85%, white 90%);
+.light-circle {
+  background: linear-gradient(
+    40deg,
+    #0078c2 10%,
+    #3cc3ba 60%,
+    #d5e9f6 85%,
+    white 90%
+  );
 }
 
-.light-circle::before{
-  background: linear-gradient(20deg, #0078C2 20%, #3CC3BA 80%, #D5E9F6 100%);
+.light-circle::before {
+  background: linear-gradient(20deg, #0078c2 20%, #3cc3ba 80%, #d5e9f6 100%);
 }
-
 
 .dark-circle {
-  background: linear-gradient(200deg, white 60%, #D5E9F6 70%, #3CC3BA 90%, #0078C2 98%);
+  background: linear-gradient(
+    200deg,
+    white 60%,
+    #d5e9f6 70%,
+    #3cc3ba 90%,
+    #0078c2 98%
+  );
 }
 
-.dark-circle::before{
-  background: linear-gradient(200deg, white 20%, #D5E9F6 60%, #3CC3BA 80%, #0078C2 98%);
+.dark-circle::before {
+  background: linear-gradient(
+    200deg,
+    white 20%,
+    #d5e9f6 60%,
+    #3cc3ba 80%,
+    #0078c2 98%
+  );
 }

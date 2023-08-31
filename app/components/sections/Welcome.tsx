@@ -2,6 +2,7 @@ import TwoCol from "../layout/TwoCol";
 import Section from "../layout/Section";
 import VideoContainer from "../VideoContainer";
 import { ContentProps } from "../utils/sectionProps";
+import Link from "../Link";
 
 const Welcome = ({ bgColor }: ContentProps) => {
   return (
@@ -22,9 +23,12 @@ const Welcome = ({ bgColor }: ContentProps) => {
             At LSCU, we are dedicated to continually enhancing our resources to
             better serve the needs of our small credit unions. Your feedback is
             incredibly valuable to us, and we welcome any suggestions or ideas
-            you may have. Please don&apos;t hesitate to get in touch with us at
-            MemberEngagement@LSCU.coop and share your thoughts. Together, we can
-            empower and strengthen our credit union community!
+            you may have. Please don&apos;t hesitate to get in touch with us at{" "}
+            <Link href="mailto:MemberEngagement@LSCU.coop" gradient="green">
+              MemberEngagement@LSCU.coop
+            </Link>{" "}
+            and share your thoughts. Together, we can empower and strengthen our
+            credit union community!
           </div>
         </div>
         <VideoContainer src="https://www.youtube.com/embed/ScMzIvxBSi4" />

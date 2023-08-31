@@ -16,22 +16,29 @@ const InfoSight = ({ bgColor }: ContentProps) => {
             </div>
             <div className="lg:tw-text-lg tw-space-y-2">
               <div>
-                Think of it as a <em>free</em>, online compliance resource at your
-                fingertips, containing federal and state-specific content that is
-                accurate, concise and detailed on a wide range of topics and
-                issues.               </div>
+                Think of it as a <em>free</em>, online compliance resource at
+                your fingertips, containing federal and state-specific content
+                that is accurate, concise and detailed on a wide range of topics
+                and issues.{" "}
+              </div>
               <div>
-                Click the below button to access InfoSight. Sign in with
-                the same credentials used for LSCU
+                Click the below button to access InfoSight. Sign in with the
+                same credentials used for LSCU
               </div>
             </div>
-            <Button text="button" link="https://lscu.leagueinfosight.com/" variant="light" />
+            <Button
+              text="Access Now"
+              link="https://lscu.leagueinfosight.com/"
+              variant="light"
+            />
           </div>
           <div>
-            <img
-              className="tw-mx-auto tw-pb-4 tw-rounded-md tw-shadow-lg"
-              src="https://lscu.coop/member-engagement/imgs/info-sight-banner.png"
-            />
+            <a href="https://lscu.leagueinfosight.com/">
+              <img
+                className="tw-mx-auto tw-pb-4 tw-rounded-md tw-shadow-lg"
+                src="https://lscu.coop/member-engagement/imgs/info-sight-banner.png"
+              />
+            </a>
             <VideoContainer src="https://www.youtube.com/embed/ScMzIvxBSi4" />
           </div>
         </TwoCol>

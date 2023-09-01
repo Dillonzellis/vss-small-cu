@@ -7,17 +7,17 @@ export const trainingVids = [
   {
     key: 2,
     title: "Fair Lending ",
-    src: "https://lscu.coop/member-engagement/docs/vids_0820/fair_lnd_0820.mp4",
+    src: "https://www.youtube.com/embed/VYEZdblFszM?si=CnmmZJ4UuoYb2PWx",
   },
   {
     key: 3,
     title: "Robbery Training",
-    src: "https://lscu.coop/member-engagement/docs/RobberyAwarenessTraining2021.mp4",
+    src: "https://www.youtube.com/embed/xPBY_LaAxwc?si=MJYtQl8vRStfR7kh",
   },
   {
     key: 4,
     title: "Elder Financial Exploitation",
-    src: "https://lscu.coop/member-engagement/docs/vids_0820/elder_fin_expl_0820.mp4",
+    src: "https://www.youtube.com/embed/2fAMvW3cyUo?si=qh8o7jLQ1B0KTAz0",
   },
   {
     key: 5,

@@ -11,14 +11,11 @@ const BoardFunding = ({ bgColor }: ContentProps) => {
           The LSCU board of directors has approved funding for the Small Credit
           Union Initiatives Account Program, available to all affiliated credit
           unions $100 million in assets or less. The LSCU has created an account
-          in your credit union’s name in the amount of $1000 to use toward the
+          in your credit union’s name in the amount of $1,000 to use toward the
           purchase of any LSCU, LEVERAGE, or a CUNA product and/or service
           including:
         </div>
-        <Link
-          dark
-          href="https://lscu.coop/member-engagement/chapters/calendar.php"
-        >
+        <Link dark href="https://lscu.coop/education/index.php ">
           LSCU Education and Training Events
         </Link>
         <Link
@@ -27,7 +24,7 @@ const BoardFunding = ({ bgColor }: ContentProps) => {
         >
           CUNA Education and Training Events
         </Link>
-        <Link dark href="">
+        <Link dark href="mailto:memberengagement@lscu.coop">
           LSCU Strategic Planning Sessions (contact your Member Engagement
           Consultant for details)
         </Link>

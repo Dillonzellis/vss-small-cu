@@ -3,9 +3,16 @@ type LinkProps = {
   href: string;
   dark?: boolean;
   gradient?: "green";
+  target?: "_self" | "_blank";
 };
 
-const Link = ({ children, href, dark, gradient }: LinkProps) => {
+const Link = ({
+  children,
+  href,
+  dark,
+  gradient,
+  target = "_blank",
+}: LinkProps) => {
   const colorClass = dark ? "tw-text-slate-900" : "tw-text-brandingBlue-100";
 
   let gradientClass = "";
@@ -16,6 +23,7 @@ const Link = ({ children, href, dark, gradient }: LinkProps) => {
 
   return (
     <a
+      target={target}
       className={`${colorClass} ${gradientClass} tw-text-lg lg:tw-text-xl hover:tw-underline tw-font-semibold`}
       href={href}
     >

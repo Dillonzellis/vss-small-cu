@@ -1,5 +1,9 @@
 export const cunaData = [
   {
+    title: "Small CU Talent Strategy Guide ",
+    link: "https://lscu.coop/member-engagement/docs/SMCU22_TalentStrategyGuide.pdf",
+  },
+  {
     title: "CUNA Small CU Resources",
     link: "https://www.cuna.org/content/cuna/cuna-org/my-cuna/small-credit-union-resources.html",
   },

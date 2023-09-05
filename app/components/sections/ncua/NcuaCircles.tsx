@@ -14,8 +14,8 @@ const NcuaCircles = ({ bgColor }: NcuaCirclesProps) => {
       <div className="tw-mx-auto tw-flex tw-justify-center tw-pb-8">
         <a href="https://ncua.gov/" target="_blank">
           <img
-            className="tw-w-[400px]"
-            src="http://dev2.growthbydesign.org/wp-content/uploads/ncua.jpg"
+            className="tw-w-[200px]"
+            src="https://lscu.coop/member-engagement/imgs/ncua_seal_blue_print.png"
           />
         </a>
       </div>

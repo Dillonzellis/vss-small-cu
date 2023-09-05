@@ -2,7 +2,6 @@ import Container from "./components/layout/Container";
 import AdditionalResources from "./components/sections/AdditionalResouces";
 import Assistance from "./components/sections/Assitance";
 import BoardFunding from "./components/sections/BoardFunding";
-import ExploitVid from "./components/sections/ExploitVid";
 import FreeTraining from "./components/sections/FreeTraining";
 import InfoSight from "./components/sections/InfoSight";
 import PolicyPro from "./components/sections/PolicyPro";

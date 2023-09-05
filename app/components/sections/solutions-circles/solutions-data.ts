@@ -14,7 +14,7 @@ export const solutionsData = [
   {
     imgSrc: "https://lscu.coop/member-engagement/imgs/vss-logo-vert.png",
     imgAlt: "vss logo",
-    title: "Southeastern Credit Union Foundation Grants",
+    title: "Foundation Grants",
     link: "https://lscu.coop/foundation/grants.php",
   },
   {

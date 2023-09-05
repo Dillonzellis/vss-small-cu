@@ -18,6 +18,7 @@ const SolutionsCircles = ({ bgColor }: SolutionsCirclesProps) => {
             <Circle
               key={idx}
               variant="light"
+              imgVariant
               title={solution.title}
               link={solution.link}
               imgSrc={solution.imgSrc}

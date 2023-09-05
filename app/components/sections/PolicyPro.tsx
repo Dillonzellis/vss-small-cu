@@ -7,6 +7,13 @@ import { ContentProps } from "../utils/sectionProps";
 const PolicyPro = ({ bgColor }: ContentProps) => {
   return (
     <Section bgColor={bgColor}>
+      <a href="https://lscu.leagueinfosight.com/cu-policypro">
+        <img
+          className="tw-bg-white tw-p-4 tw-rounded-md tw-shadow-md tw-mb-4 md:tw-mb-8"
+          src="https://lscu.coop/member-engagement/imgs/PolicyPro-Logo.png"
+          alt=""
+        />
+      </a>
       <div className="tw-text-slate-900 tw-flex tw-flex-col tw-gap-4">
         <div className="tw-text-xl lg:tw-text-2xl tw-font-medium">
           PolicyPro provides credit unions with a comprehensive suite of more

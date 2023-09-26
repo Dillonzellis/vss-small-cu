@@ -42,7 +42,7 @@ const PolicyPro = ({ bgColor }: ContentProps) => {
           each credit union to take full advantage of CU PolicyPro’s policy
           management system.{" "}
         </div>
-        <TwoCol>
+        <div className="tw-flex tw-justify-center tw-flex-col tw-items-center">
           <div>
             <div className="tw-text-lg lg:tw-text-xl tw-pb-2 tw-font-semibold">
               Within this manual you can:
@@ -54,18 +54,18 @@ const PolicyPro = ({ bgColor }: ContentProps) => {
               <li>Publish Policies For Your Staff, Board, And Examiners</li>
               <li>And Much More!</li>
             </ul>
-            <div className="tw-pt-8">
-              If you are an affiliated credit union in Alabama, Florida, or
-              Georgia, click on Register Now to get started.
-            </div>
           </div>
-          <VideoContainer src="https://www.youtube.com/embed/ScMzIvxBSi4" />
-        </TwoCol>
-        <Button
-          variant="dark"
-          text="Register Now"
-          link="https://lscu.leagueinfosight.com/cu-policypro"
-        />
+          <div className="tw-py-8">
+            If you are an affiliated credit union in Alabama, Florida, or
+            Georgia, click on Register Now to get started.
+          </div>
+
+          <Button
+            variant="dark"
+            text="Register Now"
+            link="https://lscu.leagueinfosight.com/cu-policypro"
+          />
+        </div>
       </div>
     </Section>
   );

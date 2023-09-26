@@ -20,6 +20,29 @@
   background-position: 0 100%;
 }
 
+.dark-green-text-gradient {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    to right,
+    #91e01a,
+    #87dad5 50%,
+    rgb(15, 23, 42) 50%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+
+  transition: background-position 275ms ease;
+}
+
+.dark-green-text-gradient:hover {
+  background-position: 0 100%;
+}
+
 .dark-gradient {
   background: linear-gradient(130deg, #0078c2 0.28%, #87dad5 100%);
 }

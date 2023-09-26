@@ -9,7 +9,7 @@ const Welcome = ({ bgColor }: ContentProps) => {
     <Section bgColor={bgColor}>
       <TwoCol>
         <div className="tw-flex tw-flex-col tw-gap-4 tw-text-center tw-text-white">
-          <div className="tw-font-bold tw-text-2xl md:tw-text-3xl lg:tw-text-4xl tw-italic">
+          <div className="tw-text-2xl tw-font-bold tw-italic md:tw-text-3xl lg:tw-text-4xl">
             Welcome to LSCU&apos;s Virtual Learning Center for Small Credit
             Unions!
           </div>

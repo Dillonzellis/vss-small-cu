@@ -1,3 +1,4 @@
+import Button from "../Button";
 import { Disclaimer } from "../Disclaimer";
 import Section from "../layout/Section";
 import Link from "../Link";
@@ -16,34 +17,41 @@ const BoardFunding = ({ bgColor }: ContentProps) => {
           purchase of any LSCU, LEVERAGE, or a CUNA product, service and/or
           event including:
         </div>
-        <Link dark href="https://lscu.coop/education/index.php ">
+        <Link
+          gradient="dark-green"
+          href="https://lscu.coop/education/index.php "
+        >
           LSCU Education and Training Events
         </Link>
         <Link
-          dark
+          gradient="dark-green"
           href="https://www.cuna.org/content/cuna/cuna-org/events.html?r=1&sortBy=date"
         >
           CUNA Education and Training Events
         </Link>
-        <Link dark href="mailto:memberengagement@lscu.coop">
+        <Link gradient="dark-green" href="mailto:memberengagement@lscu.coop">
           LSCU Strategic Planning Sessions (contact your Member Engagement
           Consultant for details)
         </Link>
-        <Link dark href="https://myleverage.com/">
+        <Link gradient="dark-green" href="https://myleverage.com/">
           LEVERAGE Products (LSCU Service Corp.)
         </Link>
-        <Link dark href="https://lscu.coop/foundation/ficep.php">
+        <Link
+          gradient="dark-green"
+          href="https://lscu.coop/foundation/ficep.php"
+        >
           Southeastern Credit Union Foundation FiCEP
         </Link>
         <div className="lg:tw-text-lg">
-          To utilize Small CU Initiatives Account funds, simply notify your{" "}
-          <Link href="mailto:memberengagement@lscu.coop" dark>
-            Member Engagement Consultant.
-          </Link>{" "}
-          You may also note that the invoice is to be paid from the Small CU
-          Initiatives Account upon receipt for events/services used. LSCU
-          accounting staff will keep track of expenditures from your account.
+          To utilize Small CU Initiatives Account funds, please submit your paid
+          invoice to the Member Engagement Team; it will be paid from the Small
+          CU Initiatives Account upon receipt for used events/services.
         </div>
+        <Button
+          text="Member Engagement Team"
+          link="mailto:memberengagement@lscu.coop"
+          variant="dark"
+        />
         <Disclaimer>
           The Small CU Initiatives Fund was approved based on the LSCU’s budget
           and will be re-evaluated each year as part of our budget process.

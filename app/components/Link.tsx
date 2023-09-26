@@ -2,7 +2,7 @@ type LinkProps = {
   children: React.ReactNode;
   href: string;
   dark?: boolean;
-  gradient?: "green";
+  gradient?: "green" | "dark-green";
   target?: "_self" | "_blank";
 };
 
@@ -18,13 +18,17 @@ const Link = ({
   let gradientClass = "";
 
   if (gradient === "green") {
-    gradientClass = "green-text-gradient ";
+    gradientClass = "green-text-gradient";
+  }
+
+  if (gradient === "dark-green") {
+    gradientClass = "dark-green-text-gradient";
   }
 
   return (
     <a
       target={target}
-      className={`${colorClass} ${gradientClass} tw-text-lg lg:tw-text-xl hover:tw-underline tw-font-semibold`}
+      className={`${colorClass} ${gradientClass} tw-text-lg tw-font-semibold hover:tw-underline lg:tw-text-xl`}
       href={href}
     >
       {children}

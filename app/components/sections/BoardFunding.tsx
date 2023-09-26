@@ -1,3 +1,4 @@
+import { Disclaimer } from "../Disclaimer";
 import Section from "../layout/Section";
 import Link from "../Link";
 import { ContentProps } from "../utils/sectionProps";
@@ -5,7 +6,7 @@ import { ContentProps } from "../utils/sectionProps";
 const BoardFunding = ({ bgColor }: ContentProps) => {
   return (
     <Section bgColor={bgColor}>
-      <div className="tw-text-slate-900 tw-flex tw-flex-col tw-gap-4">
+      <div className="tw-flex tw-flex-col tw-gap-4 tw-text-slate-900">
         <img src="https://lscu.coop/member-engagement/imgs/header-edit.png" />
         <div className="tw-text-lg lg:tw-text-xl">
           The LSCU board of directors has approved funding for the Small Credit
@@ -43,7 +44,7 @@ const BoardFunding = ({ bgColor }: ContentProps) => {
           Initiatives Account upon receipt for events/services used. LSCU
           accounting staff will keep track of expenditures from your account.
         </div>
-        <div className="tw-text-xs lg:tw-text-sm">
+        <Disclaimer>
           The Small CU Initiatives Fund was approved based on the LSCU’s budget
           and will be re-evaluated each year as part of our budget process.
           Unused funds in your account cannot be rolled over or transferred to
@@ -52,7 +53,7 @@ const BoardFunding = ({ bgColor }: ContentProps) => {
           paid. Credit unions who receive a dues waiver are not eligible for the
           Small CU Initiatives Account program. Please submit a paid invoice to
           the Member Engagement team for approval and reimbursement.
-        </div>
+        </Disclaimer>
       </div>
     </Section>
   );

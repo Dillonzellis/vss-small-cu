@@ -32,7 +32,7 @@ export const trainingVids = [
   {
     key: 7,
     title: "Understanding CU Financials ",
-    src: "https://www.youtube.com/embed/sfyosbX_kmY?si=xolsEFKec-gcK_D2",
+    src: "https://www.youtube.com/embed/PQymAsSUHgs?si=Xfjuzb8fPqeubfq4",
   },
   {
     key: 8,

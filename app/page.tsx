@@ -14,12 +14,12 @@ import SolutionCirclessWrapper from "./components/sections/solutions-circles/Sol
 
 export default function Home() {
   return (
-    <main className="tw-min-h-screen tw-bg-white tw-text-brandingNeutral-700 tw-text-base">
+    <main className="tw-min-h-screen tw-bg-white tw-text-base tw-text-brandingNeutral-700">
       <Container>
         <div className="">
-          <div className="tw-rounded-md tw-border-t-[10px] tw-border-brandingBlue-400 tw-shadow-lg tw-bg-white tw-flex tw-justify-center tw-items-center">
+          <div className="tw-flex tw-items-center tw-justify-center tw-rounded-md tw-border-t-[10px] tw-border-brandingBlue-400 tw-bg-white tw-shadow-lg">
             <img
-              className="tw-py-8 tw-w-[875px]"
+              className="tw-w-[875px] tw-py-8"
               src="https://lscu.coop/member-engagement/imgs/header-edit.png"
             />
           </div>

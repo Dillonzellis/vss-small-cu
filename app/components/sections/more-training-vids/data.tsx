@@ -22,12 +22,12 @@ export const trainingVids = [
   {
     key: 5,
     title: "Board Responsibilities ",
-    src: "https://www.youtube.com/embed/pci4ptTN8YE?si=YXDd0Bv3DkNqew19",
+    src: "https://www.youtube.com/embed/16NRy772CRg?si=J1qX1YpX80Fq25dd",
   },
   {
     key: 6,
     title: "Supervisory Committee ",
-    src: "https://www.youtube.com/embed/LpxIlExE2Ic?si=jvvXVqKWo8QqDIJX",
+    src: "https://www.youtube.com/embed/6V0FNGG7ohs?si=i3OHRZFWDAA5Iqi8",
   },
   {
     key: 7,

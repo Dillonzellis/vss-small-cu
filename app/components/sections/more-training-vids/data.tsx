@@ -22,7 +22,7 @@ export const trainingVids = [
   {
     key: 5,
     title: "Board Responsibilities ",
-    src: "https://www.youtube.com/embed/16NRy772CRg?si=J1qX1YpX80Fq25dd",
+    src: "https://www.youtube.com/embed/Ba3QS7sb4sY?si=gINJSlPtHtEjeWRr",
   },
   {
     key: 6,

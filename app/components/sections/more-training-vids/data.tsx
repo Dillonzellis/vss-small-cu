@@ -5,19 +5,9 @@ export const trainingVids = [
     src: "https://www.youtube.com/embed/gg5gPN1aTP0?modestbranding=1&showsearch=0",
   },
   {
-    key: 2,
-    title: "Fair Lending ",
-    src: "https://www.youtube.com/embed/VYEZdblFszM?si=CnmmZJ4UuoYb2PWx",
-  },
-  {
     key: 3,
     title: "Robbery Training",
     src: "https://www.youtube.com/embed/xPBY_LaAxwc?si=MJYtQl8vRStfR7kh",
-  },
-  {
-    key: 4,
-    title: "Elder Financial Exploitation",
-    src: "https://www.youtube.com/embed/2fAMvW3cyUo?si=qh8o7jLQ1B0KTAz0",
   },
   {
     key: 5,
@@ -41,7 +31,7 @@ export const trainingVids = [
   },
   {
     key: 9,
-    title: "Interest Rate Risk ",
-    src: "https://www.youtube.com/embed/kxVBeVPpu8M?si=-QSyeYK53dpFIlUK",
+    title: "BSA Training",
+    src: "https://www.youtube.com/embed/5_n1zxf3EjM",
   },
 ];

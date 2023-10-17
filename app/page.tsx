@@ -26,8 +26,8 @@ export default function Home() {
           <Welcome bgColor="blue" />
           <Welcome2 bgColor="lightOne" />
           <Assistance bgColor="lightBlue" />
-          <FreeTraining bgColor="green" />
-          <MoreTraining bgColor="blue" />
+          {/* <FreeTraining bgColor="green" /> */}
+          <MoreTraining bgColor="green" />
           <InfoSight bgColor="lightBlue" />
           <PolicyPro bgColor="lightOne" />
           <BoardFunding bgColor="white" />

@@ -9,18 +9,18 @@ export const trainingVids = [
   },
   {
     title: "Fair Lending",
-    src: "",
+    src: "https://www.youtube.com/embed/Fffs_OWzKyA?si=CNnf3k6w-CF9_XIg",
   },
   {
     title: "Robbery Awareness Training",
-    src: "https://www.youtube.com/embed/xPBY_LaAxwc?si=MJYtQl8vRStfR7kh",
+    src: "https://www.youtube.com/embed/Tv2ZE-13m3E?si=d3OB7m9QVBcvUajx",
   },
   {
     title: "Elder Financial Exploitation",
-    src: "",
+    src: "https://www.youtube.com/embed/FDccVGCxzGc?si=jVLDDHRQ_F14ZVWZ",
   },
   {
-    title: "Board Responsibilities ",
+    title: "Board Responsibilities",
     src: "https://www.youtube.com/embed/Ba3QS7sb4sY?si=gINJSlPtHtEjeWRr",
   },
   {

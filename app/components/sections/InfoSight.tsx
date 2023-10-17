@@ -10,11 +10,11 @@ const InfoSight = ({ bgColor }: ContentProps) => {
       <div>
         <TwoCol>
           <div className="tw-flex tw-flex-col tw-gap-4 tw-text-brandingBlue-100">
-            <div className="tw-font-semibold tw-text-2xl md:tw-text-3xl lg:tw-text-4xl">
+            <div className="tw-text-2xl tw-font-semibold md:tw-text-3xl lg:tw-text-4xl">
               InfoSight is your first stop when searching for compliance
               answers.
             </div>
-            <div className="lg:tw-text-lg tw-space-y-2">
+            <div className="tw-space-y-2 lg:tw-text-lg">
               <div>
                 Think of it as a <em>free</em>, online compliance resource at
                 your fingertips, containing federal and state-specific content
@@ -35,11 +35,11 @@ const InfoSight = ({ bgColor }: ContentProps) => {
           <div>
             <a href="https://lscu.leagueinfosight.com/">
               <img
-                className="tw-mx-auto tw-pb-4 tw-rounded-md tw-shadow-lg"
+                className="tw-mx-auto tw-rounded-md tw-pb-4 tw-shadow-lg"
                 src="https://lscu.coop/member-engagement/imgs/info-sight-banner.png"
               />
             </a>
-            <VideoContainer src="https://www.youtube.com/embed/ScMzIvxBSi4" />
+            <VideoContainer src="https://www.youtube.com/embed/GQMF2axKWo0?si=LKTMaumm_Sc6s8pZ" />
           </div>
         </TwoCol>
       </div>
